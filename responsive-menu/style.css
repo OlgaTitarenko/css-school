@@ -1,0 +1,46 @@
+body {
+    font: 16px/1.2 Source Sans Pro, sans-serif;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    background: #fff4f0;
+}
+.container {
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 55px;
+}
+.menu {
+    background-color: white;
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    box-shadow: 0 8px 4px -4px rgba(0, 0, 0, .3);
+    padding-top: 10px;
+}
+.menu-list{
+    text-align: right;
+    background-color: white;
+    padding-right: 12% ;
+}
+.menu-list li {
+     display: inline-block;
+     padding: 10px;
+     font-weight: bold;
+ }
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+li {
+    text-decoration: underline;
+}
+
+ul li:first-child {
+    text-decoration:none;
+}
